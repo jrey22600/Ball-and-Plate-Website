@@ -42,9 +42,16 @@ Force on ball in x-direction:
 Fx,r = Jbxdouble dot(t)rb2
   </p>
 
-Non-linear equation of motion: mbxdouble dot(t) = mbg sin𝛼(t) - Jbxdouble dot(t)rb2
+Non-linear equation of motion: 
+<p align= 'center'>
+mbxdouble dot(t) = mbg sin𝛼(t) - Jbxdouble dot(t)rb2
+</p>
 
-Acceleration of the ball: xdouble dot(t) =mbg sin𝛼(t) rb2mb rb2 + Jb
+Acceleration of the ball: 
+<p align= 'center'>
+xdouble dot(t) =mbg sin𝛼(t) rb2mb rb2 + Jb
+  </p>
+  
 ### 2.3
 ## 3. Sensor Calibration
 ### 3.1 Background
