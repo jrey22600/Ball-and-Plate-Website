@@ -34,7 +34,18 @@ Force on ball in x-direction: Fx,r = Jbxdouble dot(t)rb2
 Non-linear equation of motion: mbxdouble dot(t) = mbg sin𝛼(t) - Jbxdouble dot(t)rb2
 
 Acceleration of the ball: xdouble dot(t) =mbg sin𝛼(t) rb2mb rb2 + Jb
-### 2.3
+### 2.3 Relative Servo 
+Relate motor angle to beam angle: sin𝛼(t) = 2hLplate
+
+Take sine of motor shaft: sin𝛼(t) = 2rarmsinθl(t)Lplate
+
+Equation of motion relating motor to ball: xdouble dot = 2mb g rarm rb2Lplate (mb rb2 + Jb) sinθl(t)
+
+Approximation that sinθl(t) ≈ θl(t) yields linearized equation of motion:
+
+xdouble dot = 2mb g rarm rb2Lplate (mb rb2 + Jb) θl(t)
+
+
 ## 3. Sensor Calibration
 ### 3.1 Background
 ### 3.2
