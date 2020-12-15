@@ -35,25 +35,46 @@ Force cause by ball rotation:
 
 Where, 
 <p align='center'>
-  <img src="Equations/Equations 3.png">
+  <img src="Equations/Equation 3.png">
   </p>
 
-Force on ball in x-direction: Fx,r = (J,b^xdoubledot(t))/(r,b^2)
+Force on ball in x-direction: 
+<p align='center'>
+  <img src="Equations/Equation 4.png">
+  </p>
 
 
-Non-linear equation of motion: m,b*x,double dot(t) = m,b*g*sin𝛼(t) - (J,b^xdouble dot(t))/r,b^2
+Non-linear equation of motion: 
+<p align='center'>
+  <img src="Equations/Equation 5.png">
+  </p>
 
-Acceleration of the ball: x,doubledot(t) = (m,b*g*sin𝛼(t)*rb2)/(m,b r,b^2 + J,b)
+Acceleration of the ball:
+<p align='center'>
+  <img src="Equations/Equation 6.png">
+  </p>
+  
 ### 2.3 Relative Servo 
-Relate motor angle to beam angle: sin𝛼(t) = (2*h)/(L,plate)
+Relate motor angle to beam angle: 
+<p align='center'>
+  <img src="Equations/Equation 7.png">
+  </p>
 
-Take sine of motor shaft: sin𝛼(t) = (2*r,arm*sinθ,1(t))/(L,plate)
+Take sine of motor shaft: 
+<p align='center'>
+  <img src="Equations/Equation 8.png">
+  </p>
 
-Equation of motion relating motor to ball: xdoubledot = (2*m,b*g*r,arm*r,b^2)/(L,plate*(m,b r,b^2+Jb)) * sinθ,1(t)
+Equation of motion relating motor to ball: 
+<p align='center'>
+  <img src="Equations/Equation 9.png">
+  </p>
 
 Approximation that sinθ,l(t) ≈ θ,l(t) yields linearized equation of motion:
 
-xdoubledot = (2m,b*g*r,arm*r,b^2)/(L,plate*(mb rb2 + Jb)) * θl(t)
+<p align='center'>
+  <img src="Equations/equation 10.png">
+  </p>
 
 Tables of Variables 
 
