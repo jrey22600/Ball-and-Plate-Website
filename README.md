@@ -28,7 +28,10 @@ Force due to gravity:
   <img src="Equations/Equation 1.gif">
   </p>
 
-Force cause by ball rotation:  Fx, r = (𝜏,b)/(r,b)
+Force cause by ball rotation:  
+<p align='center'>
+  <img src="Equations/Equations 2.png">
+  </p>
 
 Where, rb  = J,bᵝdot(t)
 
