@@ -22,7 +22,11 @@ The 2 DOF Ball Balancer or Project 2 is a system that will recognize the ball's 
 Figure 1 shows the one dimensional view of the FBD of the ball and plate design. It includes a rotary servo motor that adjusts the plate to keep the ball on. The ball is allowed to move freely and the purpose of this program is to adjust and maintain stability. 
 
 ### 2.2 Nonlinear Equation of Motion
-Force due to gravity: Fx,t = m,b*g sin𝛼(t)
+Force due to gravity: 
+
+<p align='center'>
+  <img src="Equations/Equation 1.gif">
+  </p>
 
 Force cause by ball rotation:  Fx, r = (𝜏,b)/(r,b)
 
