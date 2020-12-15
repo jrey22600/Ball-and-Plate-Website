@@ -80,7 +80,8 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   <img src="Images/table.GIF">
   Table 1. List of Variable Used
   </p>
-  
+Table 1 describes of the variable seen in the equations above
+
 ## 3. Sensor Calibration
 ### 3.1 Background
 ### 3.2
