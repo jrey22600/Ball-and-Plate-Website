@@ -96,11 +96,14 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   <img src="Images/ballonplate2.JPG">
   </p>
 
+
 <p align='center'>
+  Here is the link to the remApi.m PDF
   <img src="Images/remApi.m.pdf">
   </p>
   
 <p align='center'>
+  Here is the link to the remoteApiProto.m PDF
   <img src="Images/remoteApiProto.m.pdf">
   </p>
 
