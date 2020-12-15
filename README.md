@@ -79,8 +79,8 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 
 <p align='center'>
-  Table 1: List of Variables Used
   <img src="Images/table.GIF">
+  Table 1: List of Variables Used
   </p>
   
 ## 3. Sensor Calibration
