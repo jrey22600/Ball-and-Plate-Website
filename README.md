@@ -52,7 +52,11 @@ Approximation that sinθ,l(t) ≈ θ,l(t) yields linearized equation of motion:
 
 xdoubledot = (2m,b*g*r,arm*r,b^2)/(L,plate*(mb rb2 + Jb)) * θl(t)
 
+Tables of Variables 
 
+<p align='center'>
+  <img src="Images/Table.PNG">
+  </p>
 ## 3. Sensor Calibration
 ### 3.1 Background
 ### 3.2
