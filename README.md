@@ -22,30 +22,27 @@ The 2 DOF Ball Balancer or Project 2 is a system that will recognize the ball's 
 Figure 1 shows the one dimensional view of the FBD of the ball and plate design. It includes a rotary servo motor that adjusts the plate to keep the ball on. The ball is allowed to move freely and the purpose of this program is to adjust and maintain stability. 
 
 ### 2.2 Nonlinear Equation of Motion
-Force due to gravity: Fx,t = mbg sin𝛼(t)
+Force due to gravity: 
+<p align= 'center'>
+Fx,t = mbg sin𝛼(t)
+  </p>
 
-Force cause by ball rotation:  Fx, r = 𝜏brb
+Force cause by ball rotation:  
+<p align= 'center'>
+Fx, r = 𝜏brb
+</p>
 
-Where, rb  = Jbᵝdot(t)
+Where, 
+<p align= 'center'>
+rb  = Jbᵝdot(t)
+</p>
 
 Force on ball in x-direction: Fx,r = Jbxdouble dot(t)rb2
-
 
 Non-linear equation of motion: mbxdouble dot(t) = mbg sin𝛼(t) - Jbxdouble dot(t)rb2
 
 Acceleration of the ball: xdouble dot(t) =mbg sin𝛼(t) rb2mb rb2 + Jb
-### 2.3 Relative Servo 
-Relate motor angle to beam angle: sin𝛼(t) = 2hLplate
-
-Take sine of motor shaft: sin𝛼(t) = 2rarmsinθl(t)Lplate
-
-Equation of motion relating motor to ball: xdouble dot = 2mb g rarm rb2Lplate (mb rb2 + Jb) sinθl(t)
-
-Approximation that sinθl(t) ≈ θl(t) yields linearized equation of motion:
-
-xdouble dot = 2mb g rarm rb2Lplate (mb rb2 + Jb) θl(t)
-
-
+### 2.3
 ## 3. Sensor Calibration
 ### 3.1 Background
 ### 3.2
