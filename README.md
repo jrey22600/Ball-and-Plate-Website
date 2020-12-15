@@ -76,9 +76,10 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   <img src="Equations/equation 10.png">
   </p>
 
-Tables of Variables 
+
 
 <p align='center'>
+  Table 1: List of Variables Used
   <img src="Images/table.GIF">
   </p>
   
