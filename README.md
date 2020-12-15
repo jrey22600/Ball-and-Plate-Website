@@ -22,37 +22,30 @@ The 2 DOF Ball Balancer or Project 2 is a system that will recognize the ball's 
 Figure 1 shows the one dimensional view of the FBD of the ball and plate design. It includes a rotary servo motor that adjusts the plate to keep the ball on. The ball is allowed to move freely and the purpose of this program is to adjust and maintain stability. 
 
 ### 2.2 Nonlinear Equation of Motion
-Force due to gravity: 
-<p align= 'center'>
-Fx,t = mbg sin𝛼(t)
-  </p>
+Force due to gravity: Fx,t = m,b*g sin𝛼(t)
 
-Force cause by ball rotation:  
-<p align= 'center'>
-Fx, r = 𝜏brb
-</p>
+Force cause by ball rotation:  Fx, r = (𝜏,b)/(r,b)
 
-Where, 
-<p align= 'center'>
-rb  = Jbᵝdot(t)
-</p>
+Where, rb  = J,bᵝdot(t)
 
-Force on ball in x-direction: 
-<p align= 'center'>
-Fx,r = Jbxdouble dot(t)rb2
-  </p>
+Force on ball in x-direction: Fx,r = (J,b^xdoubledot(t))/(r,b^2)
 
-Non-linear equation of motion: 
-<p align= 'center'>
-mbxdouble dot(t) = mbg sin𝛼(t) - Jbxdouble dot(t)rb2
-</p>
 
-Acceleration of the ball: 
-<p align= 'center'>
-xdouble dot(t) =mbg sin𝛼(t) rb2mb rb2 + Jb
-  </p>
-  
-### 2.3
+Non-linear equation of motion: m,b*x,double dot(t) = m,b*g*sin𝛼(t) - (J,b^xdouble dot(t))/r,b^2
+
+Acceleration of the ball: x,doubledot(t) = (m,b*g*sin𝛼(t)*rb2)/(m,b r,b^2 + J,b)
+### 2.3 Relative Servo 
+Relate motor angle to beam angle: sin𝛼(t) = (2*h)/(L,plate)
+
+Take sine of motor shaft: sin𝛼(t) = (2*r,arm*sinθ,1(t))/(L,plate)
+
+Equation of motion relating motor to ball: xdoubledot = (2*m,b*g*r,arm*r,b^2)/(L,plate*(m,b r,b^2+Jb)) * sinθ,1(t)
+
+Approximation that sinθ,l(t) ≈ θ,l(t) yields linearized equation of motion:
+
+xdoubledot = (2m,b*g*r,arm*r,b^2)/(L,plate*(mb rb2 + Jb)) * θl(t)
+
+
 ## 3. Sensor Calibration
 ### 3.1 Background
 ### 3.2
