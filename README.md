@@ -55,7 +55,7 @@ xdoubledot = (2m,b*g*r,arm*r,b^2)/(L,plate*(mb rb2 + Jb)) * θl(t)
 Tables of Variables 
 
 <p align='center'>
-  <img src="Images/Table.gif">
+  <img src="Images/table.GIF">
   </p>
 ## 3. Sensor Calibration
 ### 3.1 Background
