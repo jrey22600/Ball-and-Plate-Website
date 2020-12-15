@@ -37,7 +37,10 @@ Where,
 rb  = Jbᵝdot(t)
 </p>
 
-Force on ball in x-direction: Fx,r = Jbxdouble dot(t)rb2
+Force on ball in x-direction: 
+<p align= 'center'>
+Fx,r = Jbxdouble dot(t)rb2
+  </p>
 
 Non-linear equation of motion: mbxdouble dot(t) = mbg sin𝛼(t) - Jbxdouble dot(t)rb2
 
