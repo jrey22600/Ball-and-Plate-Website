@@ -95,6 +95,10 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 <p align='center'>
   <img src="Images/ballonplate2.JPG">
   </p>
+
+<p align='center'>
+  <img src="Images/remApi.m.pdf">
+  </p>
   
 <p align='center'>
   <img src="Images/remoteApiProto.m.pdf">
