@@ -33,7 +33,10 @@ Force cause by ball rotation:
   <img src="Equations/Equations 2.png">
   </p>
 
-Where, rb  = J,bᵝdot(t)
+Where, 
+<p align='center'>
+  <img src="Equations/Equations 3.png">
+  </p>
 
 Force on ball in x-direction: Fx,r = (J,b^xdoubledot(t))/(r,b^2)
 
