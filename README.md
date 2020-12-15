@@ -76,7 +76,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   <img src="Equations/equation 10.png">
   </p>
 
-  <p align='center'>
+<p align='center'>
   <img src="Images/table.GIF">
   Table 1. List of Variable Used
   </p>
@@ -88,15 +88,13 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ## 4. Controller Design and Simulations
 ### 4.1 Background
 ### 4.2 Codes
-  <p align='center'>
+<p align='center'>
   <img src="Images/Ball_on_Plate.m.pdf">
   </p>
-
-  <p align='center'>
+<p align='center'>
   <img src="Images/remApi.m.pdf">
   </p>
-
-  <p align='center'>
+<p align='center'>
   <img src="Images/remoteApiProto.m.pdf">
   </p>
 
