@@ -87,7 +87,19 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ### 3.3
 ## 4. Controller Design and Simulations
 ### 4.1 Background
-### 4.2
+### 4.2 Codes
+  <p align='center'>
+  <img src="Images/Ball_on_Plate.m.pdf">
+  </p>
+
+  <p align='center'>
+  <img src="Images/remApi.m.pdf">
+  </p>
+
+  <p align='center'>
+  <img src="Images/remoteApiProto.m.pdf">
+  </p>
+
 ### 4.3
 ## 5. Optional: Controller Design and Simulations
 
