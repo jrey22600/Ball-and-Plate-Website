@@ -89,11 +89,11 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ### 4.1 Background
 ### 4.2 Codes
 <p align='center'>
-  <img src="Images/Ball_on_Plate.m.pdf">
+  <img src="Images/ballonplate1.jpg">
   </p>
   
 <p align='center'>
-  <img src="Images/remApi.m.pdf">
+  <img src="Images/ballonplate2.jpg">
   </p>
   
 <p align='center'>
