@@ -57,6 +57,7 @@ Tables of Variables
 <p align='center'>
   <img src="Images/table.GIF">
   </p>
+  
 ## 3. Sensor Calibration
 ### 3.1 Background
 ### 3.2
