@@ -70,7 +70,7 @@ Equation of motion relating motor to ball:
   <img src="Equations/Equation 9.png">
   </p>
 
-Approximation that sinθ,l(t) ≈ θ,l(t) yields linearized equation of motion:
+Approximation that <img src="Equations/Equation 11.png"> yields linearized equation of motion:
 
 <p align='center'>
   <img src="Equations/equation 10.png">
