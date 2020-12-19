@@ -118,5 +118,6 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 ### 4.3
 ## 5. Optional: Controller Design and Simulations
-
+Here is the link that shows the ball balancing on the plate
+https://youtu.be/dRZi4ZY73e8
 ## 6. Checklist
