@@ -86,6 +86,11 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 ## 3. Sensor Calibration
 ### 3.1 Background
+<p align='center'>
+  <img src="Images/">
+  Figure 2: Simulink Diagram Used to Change the Angle of the Tray
+  </p>
+  
 ### 3.2
 ### 3.3
 ## 4. Controller Design and Simulations
