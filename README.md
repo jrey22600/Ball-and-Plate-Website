@@ -100,8 +100,9 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ### 3.2 Camera Vision
 <p align='center'>
   <img src="Images/Coordinate System.png">
+  
   Figure #: Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
-  </p>
+</p>
 
 <p align='center'>
   <img src="Images/Camera View.png">
@@ -122,6 +123,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ## 4. Controller Design and Simulations
 ### 4.1 Background
 ### 4.2 Simulink Diagram
+
 <p align='center'>
   <img src="Images/SimulinkDiagram.JPG">
   Figure #: Simulink Diagram Used to Change the Angle of the Tray
