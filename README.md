@@ -23,7 +23,7 @@ Figure 1 shows the one dimensional view of the FBD of the ball and plate design.
 
 <p align='center'>
   <img src="Images/Copellia Balance.png">
-  Figure #. 
+  Figure 2. Coppelia Balance
   </p>
   
 ### 2.2 Nonlinear Equation of Motion
