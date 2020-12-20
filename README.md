@@ -2,12 +2,14 @@
 -----------------------------------------------------------------------------------------
 ## 1. Introduction
 The 2 DOF Ball Balancer or Project 2 is a system that will recognize the ball's motion on the plate and adjust its orientation to ensure that the ball is in control. MATLAB/Simulink will use a PD based control with multiple loops to control the system which will then be tested in CoppeliaSim. The system is a vision based control experiment that will communicate the balls position and two rotary servo motors will act on this to ensure that the ball will not fall off the plate. </br>
-This project was completed in collaboration with California State University, Chico Controls Systems Design course. The team is made up of six Mechanical and Mechatronic Engineering students; Bradley Svennungsen, Jaime Reynoso, Jake Hibma, Blake Cardoza, Jack Klapperich and Zach Folwer.  All in collaboration with the course professor, Sinan Bank. Without the help of everyone, the project would not have been able to be successful.
+This project was completed in collaboration with California State University, Chico Controls Systems Design course. The team is made up of six Mechanical and Mechatronic Engineering students; Bradley Svennungsen, Jaime Reynoso, Jake Hibma, Blake Cardoza, Jack Klapperich and Zach Folwer.  All in collaboration with the course professor, Sinan Bank. Without the help of everyone, the project would not have been successful.
+
 ### 1.1 Objectives
 1. Create a mathematical model of the system using MATLAB/Simulink
 2. Design a proportional-derivative control that will balance the ball on the plate
-3. Simulate the MATLAB/Simulink control in CoppeliaSim to prove our PD control works 
+3. Simulate the MATLAB/Simulink control in Coppelia Sim to prove our PD control works 
 4. Build a web page on GitHub that explains how the system works
+
 ### 1.2 Equipment
 - 2 DOF Ball Balancer made by Quanser
 - MATLAB/Simulink
@@ -33,8 +35,8 @@ Figure 1 shows the one dimensional view of the FBD of the ball and plate design.
 	</p>
 	
 ### 2.2 Nonlinear Equation of Motion
-Force due to gravity: 
 
+Force due to gravity: 
 <p align='center'>
   <img src="Equations/Equation 1.gif">
   </p>
@@ -106,7 +108,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 	Figure 3. Physical Model of Ball on Plate
 	</p>
 	
-As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. The image shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
+As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. Figure 5 shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
  
 <p align='center'>
   <img src="Images/Coppelia Model.png">
