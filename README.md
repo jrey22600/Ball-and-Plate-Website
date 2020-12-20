@@ -89,18 +89,18 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 <p align='center'>
   <img src="Images/Physical System.png">
-  Figure #: Physical System of the Ball On Plate
+  Figure #:
   </p>
   
 ### 3.2 Camera Vision
 <p align='center'>
   <img src="Images/Coordinate System.png">
-  Figure #: 
+  Figure #:
   </p>
 
 <p align='center'>
   <img src="Images/Camera View.png">
-  Figure #: 
+  Figure #:
   </p>
 
 ### 3.3 Programming
