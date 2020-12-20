@@ -16,7 +16,7 @@ This project was completed in collaboration with California State University, Ch
 
 ## 2. Modeling
 ### 2.1 Background
-The ball on plate project relies on a camera located above the plate to convert the balls physical location into a set of coordinates. The coordinates are then fed into Simulink where the responding servo adjustments are made to center the ball. Since a camera is used, a separate calibration program is necessary. This calibration system will establish the balancing plate as a plane with a coordinate system. This allows for data to be extracted and fed to corresponding programs. 
+The ball on plate project relies on a camera located above the plate to convert the balls physical location into a set of coordinates. The coordinates are then fed into Simulink where the responding servo adjustments are made to center the ball. Since a camera is used, a separate calibration program is necessary. This calibration system will establish the balancing plate as a plane with a coordinate system. This allows for data to be extracted and fed to corresponding programs. </br>
 Without the camera calibration, any data collected would be worthless as no boundary conditions would be set. Additionally, the camera would not know what it is attempting to see. The calibration allows for color detection in which the red ball stands out on the different colored plate.
   
 <p align='center'>
