@@ -147,7 +147,7 @@ Within the main calibration program, three functions are being used. The first e
 
 <p align='center'>
   <img src="Images/Connection Code.png">
-  Figure 8: Main Scrpit for Remote Connection
+  Figure 8: Main Script for Remote Connection
   </p>
   
 ## 4. Controller Design and Simulations
