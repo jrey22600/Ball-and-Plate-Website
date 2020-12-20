@@ -189,4 +189,4 @@ The system can be seen operating below in the video file. Sadly, the ball is not
 Here is the link that shows the ball balancing on the plate
 https://youtu.be/dRZi4ZY73e8
 
-The Matlab, Simulink, and Coppelia files used are provided above in the  folder.
+The MATLAB, Simulink, and Coppelia files used are provided above in the MATLAB&Simulink Code folder.
