@@ -140,7 +140,7 @@ The camera cannot see the plate and grid as the users will. Instead the vision s
 The camera calibration program was provided for this project but a few small adjustments had to be made in order for the calibration to link with Matlab and Simulink. Figure 7 is the code used to calibrate the camera within Coppelia. Further adjustments would be needed if the physical system was tested as well. These variations allow for adjustability if, for instance, the physical plate size varied from that of the Coppelia simulation. 
 
 <p align='center'>
-  <img src="Images/Carmera Calibration.png">
+  <img src="Images/Coppelia Cam Code.png">
   Figure 7: Non-Threaded Camera Script
   </p>
 
