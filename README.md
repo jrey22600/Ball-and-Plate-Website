@@ -165,7 +165,10 @@ Within the main calibration program, three functions are being used. The first e
 <p align='center'>
   <img src="Images/ballonplate2.JPG">
   </p>
-
+  
+<p align='center'>
+	Figure 10. View of the Coppelia Sim
+	</p>
 
 <p align='center'>
   Here is the link to the remApi.m PDF
@@ -176,8 +179,6 @@ Within the main calibration program, three functions are being used. The first e
   Here is the link to the remoteApiProto.m PDF
   <img src="Images/remoteApiProto.m.pdf">
   </p>
-
-### 4.3
 
 ## 6. Checklist
 Here is the link that shows the ball balancing on the plate
