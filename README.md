@@ -92,6 +92,11 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   Figure #:
   </p>
   
+<p align='center'>
+  <img src="Images/Coppelia Model.png">
+  Figure #:
+  </p>
+            
 ### 3.2 Camera Vision
 <p align='center'>
   <img src="Images/Coordinate System.png">
