@@ -106,6 +106,8 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   </p>
             
 ### 3.2 Camera Vision
+ As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. The image shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
+ 
 <p align='center'>
   <img src="Images/Coordinate System.png">
   Figure #: Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
