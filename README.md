@@ -127,7 +127,7 @@ As stated before, the camera is going to relate physical motion into coordinates
 	Figure 5. Coordinate System for Ball on the Plate Viewed by Camera
 	</p>
 
-The camera cannot see the plate and grid as users will, instead the vision software identifies the ball as red and all else as the plate. With the field of view and plate dimension established, the balls location can be referenced to known dimensions. The image shown below is an example of what the camera actually sees. While the simulation is running the red dot will move within the boundaries generating various coordinates. Within the Simulink code, these can be converted into velocities to determine the balls speed by understand the rate at which images are taken.
+The camera cannot see the plate and grid as the users will. Instead the vision software identifies the ball as red and all else as the plate. With the field of view and plate dimension established, the balls location can be referenced to known dimensions. Figure 6 is an example of what the camera actually sees. While the simulation is running the red dot will move within the boundaries generating various coordinates. Within the Simulink code, these can be converted into velocities to determine the balls speed by understanding the rate at which images are taken.
 
 <p align='center'>
   <img src="Images/Camera View.png">
@@ -137,14 +137,14 @@ The camera cannot see the plate and grid as users will, instead the vision softw
 	</p>
 	
 ### 3.3 Programming
-The camera calibration program was provided for this project but a few small adjustments had to be made in order for the calibration to link with Matlab and Simulink. The figure below is the code used to calibrate the camera within Coppelia. Further adjustments would be needed if the physical system was tested as well. These variations allow for adjustability if, for instance, the physical plate size varied from that of the Coppelia simulation. 
+The camera calibration program was provided for this project but a few small adjustments had to be made in order for the calibration to link with Matlab and Simulink. Figure 7 is the code used to calibrate the camera within Coppelia. Further adjustments would be needed if the physical system was tested as well. These variations allow for adjustability if, for instance, the physical plate size varied from that of the Coppelia simulation. 
 
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
   Figure 7: Non-Threaded Camera Script
   </p>
 
-Within the main calibration program, three functions are being used. The first establishes the camera being used and allows for the coordinates to be printed internally of Coppelia. The second is just a cleanup code. While the third allows for the conversion of collected data. The final image, figure #, is the connection code which enables the coordinates to be transferred over to Matlab and Simulink.
+Within the main calibration program, three functions are being used. The first establishes the camera being used and allows for the coordinates to be printed internally of Coppelia. The second is just a cleanup code. While the third allows for the conversion of collected data. Finally, Figure 8 is the connection code which enables the coordinates to be transferred over to MATLAB and Simulink.
 
 <p align='center'>
   <img src="Images/Connection Code.png">
@@ -162,7 +162,7 @@ Analyzing just one system, the input is the ‘measured ball position in X or Y�
   <img src="Images/SimulinkDiagram.JPG">
   Figure 9: Simulink Diagram Used to Change the Angle of the Tray
   </p>
-The system can be seen operating below in the video file. Sadly, the ball is not able to reach a velocity of zero while at the desired coordinate(centered). This is because the velocity the ball has is not accounted for when it reaches the target coordinate. Instead, the system reads that the balls position matches desired coordinate and doesn’t further compensate for its velocity. That is why the ball continues to roll through the desired coordinate. After it rolls through the point, the camera realizes the ball still has momentum. It will then try to correct this by increase the angle in the direction the ball is moving. Thus sending it back into the desired coordinate.  The same issue is then created as it passes the point in the opposite direction. These actions create an elliptical motion that keeps the ball on the plate, but never eliminates the balls velocity besides the extreme points of the ellipse. 
+The system can be seen operating under the checklist title as the Youtube link. Sadly, the ball is not able to reach a velocity of zero while at the desired coordinate(centered). This is because the velocity the ball has is not accounted for when it reaches the target coordinate. Instead, the system reads that the balls position matches desired coordinate and doesn’t further compensate for its velocity. That is why the ball continues to roll through the desired coordinate. After it rolls through the point, the camera realizes the ball still has momentum. It will then try to correct this by increase the angle in the direction the ball is moving. Thus sending it back into the desired coordinate.  The same issue is then created as it passes the point in the opposite direction. These actions create an elliptical motion that keeps the ball on the plate, but never eliminates the balls velocity besides the extreme points of the ellipse. 
     </br>This error has had attempts on our behalf to correct it. Additional feedbacks were implemented to try slow the balls velocity before it reaches the center point. Yet none of them were able to function properly and only resulted in the ball being sent off of the plate. Overall, the project is a success as it properly balances the ball on the plate, and it reaches the desired coordinate. The momentum never reaches zero so the motion is continued indefinitely.
     
 ### 4.3 Codes
