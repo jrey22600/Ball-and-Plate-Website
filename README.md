@@ -111,7 +111,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 <p align='center'>
   <img src="Images/Connection Code.png">
-  Figure #: Coppelia Code
+  Figure #: Conection Code
   </p>
   
 ## 4. Controller Design and Simulations
