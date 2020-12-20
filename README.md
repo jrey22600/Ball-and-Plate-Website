@@ -29,7 +29,7 @@ Figure 1 shows the one dimensional view of the FBD of the ball and plate design.
   <img src="Images/Copellia Balance.png">
   </p>
 <p align='center'>
-	Figure 2. View of the Coppelia Sim
+	Figure 2. Free Body View in Coppelia Sim
 	</p>
 	
 ### 2.2 Nonlinear Equation of Motion
@@ -88,7 +88,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   </p>
 
 <p align='center'>
-  Table 1. Describes the Variables Seen in the Equations Above.
+  Table 1. Variables Used in the Equations Above.
   </p>
   
 <p align='center'>
@@ -103,7 +103,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   </p>
   
 <p align='center'>
-	Figure 3. Quanser 2 DOF Ball Balancer
+	Figure 3. Physical Model of Ball on Plate
 	</p>
 	
 As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. The image shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
@@ -113,7 +113,7 @@ As stated before, the camera is going to relate physical motion into coordinates
   </p>
      
 <p align='center'>
-	Figure 4. View of the Coppelia Sim
+	Figure 4. Model in Coppelia Sim
 	</p>
 	
 ### 3.2 Camera Vision
@@ -123,14 +123,14 @@ The camera calibration program was provided for this project but a few small adj
   <img src="Images/Coordinate System.png">
   </p>
 <p align='center'>
-	Figure 5. Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
+	Figure 5. Coordinate System for Ball on the Plate Viewed by Camera
 	</p>
 	
 <p align='center'>
   <img src="Images/Camera View.png">
   </p>
 <p align='center'>
-	Figure 6. View of the Coppelia Sim
+	Figure 6. Camera's View of the Ball on Plate
 	</p>
 	
 ### 3.3 Programming
@@ -138,14 +138,14 @@ The camera cannot see the plate and grid as users will, instead the vision softw
 
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
-  Figure 7: Coppelia Code
+  Figure 7: Non-Threaded Camera Script
   </p>
 
 Within the main calibration program, three functions are being used. The first establishes the camera being used and allows for the coordinates to be printed internally of Coppelia. The second is just a cleanup code. While the third allows for the conversion of collected data. The final image, figure #, is the connection code which enables the coordinates to be transferred over to Matlab and Simulink.
 
 <p align='center'>
   <img src="Images/Connection Code.png">
-  Figure 8: Connection Code
+  Figure 8: Main Scrpit for Remote Connection
   </p>
   
 ## 4. Controller Design and Simulations
@@ -172,7 +172,7 @@ The system can be seen operating below in the video file. Sadly, the ball is not
   </p>
   
 <p align='center'>
-	Figure 10. View of the Coppelia Sim
+	Figure 10. Utilized MATLAB Code
 	</p>
 
 <p align='center'>
