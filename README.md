@@ -137,14 +137,14 @@ The camera cannot see the plate and grid as users will, instead the vision softw
 
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
-  Figure #: Coppelia Code
+  Figure 7: Coppelia Code
   </p>
 
 Within the main calibration program, three functions are being used. The first establishes the camera being used and allows for the coordinates to be printed internally of Coppelia. The second is just a cleanup code. While the third allows for the conversion of collected data. The final image, figure #, is the connection code which enables the coordinates to be transferred over to Matlab and Simulink.
 
 <p align='center'>
   <img src="Images/Connection Code.png">
-  Figure #: Conection Code
+  Figure 8: Conection Code
   </p>
   
 ## 4. Controller Design and Simulations
@@ -154,7 +154,7 @@ Within the main calibration program, three functions are being used. The first e
 
 <p align='center'>
   <img src="Images/SimulinkDiagram.JPG">
-  Figure #: Simulink Diagram Used to Change the Angle of the Tray
+  Figure 9: Simulink Diagram Used to Change the Angle of the Tray
   </p>
 
 ### 4.3 Codes
