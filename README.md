@@ -88,12 +88,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ### 3.1 Background
 
 <p align='center'>
-  <img src="Images/Carmera Calibration.png">
-  Figure 2: Simulink Diagram Used to Change the Angle of the Tray
-  </p>
-  
-<p align='center'>
-  <img src="Images/Carmera Calibration.png">
+  <img src="Images/Physical System.png">
   Figure 2: Simulink Diagram Used to Change the Angle of the Tray
   </p>
   
