@@ -108,7 +108,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 	Figure 3. Physical Model of Ball on Plate
 	</p>
 	
-As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. Figure 5 shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
+The camera calibration program was provided for this project but a few small adjustments had to be made in order for the calibration to link with Matlab and Simulink. Figure 4 below is the code used to calibrate the camera within Coppelia. Further adjustments would be needed if the physical system was tested as well. These variations allow for adjustability if, for instance, the physical plate size varied from that of the Coppelia simulation. 
  
 <p align='center'>
   <img src="Images/Coppelia Model.png">
@@ -119,8 +119,7 @@ As stated before, the camera is going to relate physical motion into coordinates
 	</p>
 	
 ### 3.2 Camera Vision
-The camera calibration program was provided for this project but a few small adjustments had to be made in order for the calibration to link with Matlab and Simulink. The figure below is the code used to calibrate the camera within Coppelia. Further adjustments would be needed if the physical system was tested as well. These variations allow for adjustability if, for instance, the physical plate size varied from that of the Coppelia simulation. 
- 
+As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. Figure 5 shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
 <p align='center'>
   <img src="Images/Coordinate System.png">
   </p>
