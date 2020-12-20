@@ -193,3 +193,5 @@ Here is the link that shows the ball balancing on the plate
 https://youtu.be/dRZi4ZY73e8
 
 The MATLAB, Simulink, and Coppelia files used are provided above in the MATLAB&Simulink Code folder.
+
+## 7. References
