@@ -112,7 +112,7 @@ As stated before, the camera is going to relate physical motion into coordinates
   </p>
      
 <p align='center'>
-	Figure 2. View of the Coppelia Sim
+	Figure 4. View of the Coppelia Sim
 	</p>
 	
 ### 3.2 Camera Vision
@@ -122,14 +122,14 @@ The camera calibration program was provided for this project but a few small adj
   <img src="Images/Coordinate System.png">
   </p>
 <p align='center'>
-	Figure 2. Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
+	Figure 5. Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
 	</p>
 	
 <p align='center'>
   <img src="Images/Camera View.png">
   </p>
 <p align='center'>
-	Figure 2. View of the Coppelia Sim
+	Figure 6. View of the Coppelia Sim
 	</p>
 	
 ### 3.3 Programming
