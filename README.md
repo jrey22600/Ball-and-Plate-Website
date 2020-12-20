@@ -149,14 +149,18 @@ Within the main calibration program, three functions are being used. The first e
   
 ## 4. Controller Design and Simulations
 ### 4.1 Background
-	
+Since the physical system is not being tested, the controller hardware would be the users computer, while using MatLab and Simulink as the software controlling the project. The system uses two closed loop functions. Each function controls a single servo and in turn a single axis. These two independent systems make up the projects two degrees of freedom.
+
 ### 4.2 Simulink Diagram
+Analyzing just one system, the input is the ‘measured ball position in X or Y’. While the output is the ‘Desired X or Y axis Angle. The input is fed into the transfer function and into a summation block as negative feedback. The transfer function takes the input and through a series of amplifiers converts the coordinate into rad-s/m. The upper path uses the ‘Desired position’, in this case centered on the plate, and the negative feedback of the balls position to determine the new desired angle of the servo motor. In combination with the rate the servo needs to move at, a real time adjustment can be made to direct the ball towards the center of the plate.
 
 <p align='center'>
   <img src="Images/SimulinkDiagram.JPG">
   Figure 9: Simulink Diagram Used to Change the Angle of the Tray
   </p>
-
+The system can be seen operating below in the video file. Sadly, the ball is not able to reach a velocity of zero while at the desired coordinate(centered). This is because the velocity the ball has is not accounted for when it reaches the target coordinate. Instead, the system reads that the balls position matches desired coordinate and doesn’t further compensate for its velocity. That is why the ball continues to roll through the desired coordinate. After it rolls through the point, the camera realizes the ball still has momentum. It will then try to correct this by increase the angle in the direction the ball is moving. Thus sending it back into the desired coordinate.  The same issue is then created as it passes the point in the opposite direction. These actions create an elliptical motion that keeps the ball on the plate, but never eliminates the balls velocity besides the extreme points of the ellipse. 
+    This error has had attempts on our behalf to correct it. Additional feedbacks were implemented to try slow the balls velocity before it reaches the center point. Yet none of them were able to function properly and only resulted in the ball being sent off of the plate. Overall, the project is a success as it properly balances the ball on the plate, and it reaches the desired coordinate. The momentum never reaches zero so the motion is continued indefinitely.
+    
 ### 4.3 Codes
 <p align='center'>
   <img src="Images/ballonplate1.JPG">
