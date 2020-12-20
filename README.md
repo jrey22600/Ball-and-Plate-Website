@@ -98,11 +98,16 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   </p>
   
 ### 3.2 Camera Vision
-  
+
+<p align='center'>
+  <img src="Images/Camera View.png">
+  Figure 2: 
+  </p>
+
 ### 3.3 Programming
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
-  Figure 2: Simulink Diagram Used to Change the Angle of the Tray
+  Figure 2: 
   </p>
   
 ## 4. Controller Design and Simulations
