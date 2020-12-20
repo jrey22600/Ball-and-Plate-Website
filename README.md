@@ -106,7 +106,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 <p align='center'>
   <img src="Images/Coordinate System.png">
   Figure #: Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
-</p>
+  </p>
 
 <p align='center'>
   <img src="Images/Camera View.png">
