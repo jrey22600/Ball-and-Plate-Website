@@ -196,6 +196,6 @@ The MATLAB, Simulink, and Coppelia files used are provided above in the MATLAB&S
 
 ## 7. References
 
-Nise, Norman S. Control Systems Engineering. John Wiley & Sons, 2011.
+Nise, Norman S. *Control Systems Engineering.* John Wiley & Sons, 2011.
 
-Quanser. Two DOF Ball Balancer. Quanser Incorporated, 2013. 
+Quanser. *Two DOF Ball Balancer.* Quanser Incorporated, 2013. 
