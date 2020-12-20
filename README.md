@@ -119,6 +119,8 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   </p>
 
 ### 3.3 Programming
+The camera cannot see the plate and grid as users will, instead the vision software identifies the ball as red and all else as the plate. With the field of view and plate dimension established, the balls location can be referenced to known dimensions. The image shown below is an example of what the camera actually sees. While the simulation is running the red dot will move within the boundaries generating various coordinates. Within the Simulink code, these can be converted into velocities to determine the balls speed by understand the rate at which images are taken. 
+
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
   Figure #: Coppelia Code
