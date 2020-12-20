@@ -89,24 +89,24 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 <p align='center'>
   <img src="Images/Physical System.png">
-  Figure 2: Simulink Diagram Used to Change the Angle of the Tray
+  Figure #: Physical System of the Ball On Plate
   </p>
   
 ### 3.2 Camera Vision
 <p align='center'>
   <img src="Images/Coordinate System.png">
-  Figure 2: 
+  Figure #: 
   </p>
 
 <p align='center'>
   <img src="Images/Camera View.png">
-  Figure 2: 
+  Figure #: 
   </p>
 
 ### 3.3 Programming
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
-  Figure 2: 
+  Figure #: Coppelia Code
   </p>
   
 ## 4. Controller Design and Simulations
@@ -114,7 +114,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ### 4.2 Simulink Diagram
 <p align='center'>
   <img src="Images/SimulinkDiagram.JPG">
-  Figure 3: Simulink Diagram Used to Change the Angle of the Tray
+  Figure #: Simulink Diagram Used to Change the Angle of the Tray
   </p>
 
 ### 4.3 Codes
