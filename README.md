@@ -87,11 +87,11 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   </p>
 
 <p align='center'>
-  <img src="Images/table.GIF">
-  </p>
-
-<p align='center'>
   Table 1. Describes the Variables Seen in the Equations Above.
+  </p>
+  
+<p align='center'>
+  <img src="Images/table.GIF">
   </p>
 
 ## 3. Sensor Calibration
