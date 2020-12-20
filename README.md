@@ -18,8 +18,6 @@ This project was completed in collaboration with California State University, Ch
 
 ## 2. Modeling
 ### 2.1 Background
-The ball on plate project relies on a camera located above the plate to convert the balls physical location into a set of coordinates. The coordinates are then fed into Simulink where the responding servo adjustments are made to center the ball. Since a camera is used, a separate calibration program is necessary. This calibration system will establish the balancing plate as a plane with a coordinate system. This allows for data to be extracted and fed to corresponding programs. </br>
-Without the camera calibration, any data collected would be worthless as no boundary conditions would be set. Additionally, the camera would not know what it is attempting to see. The calibration allows for color detection in which the red ball stands out on the different colored plate.
   
 <p align='center'>
   <img src="Images/ball.jpg">
@@ -99,7 +97,8 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 ## 3. Sensor Calibration
 ### 3.1 Background
-
+The ball on plate project relies on a camera located above the plate to convert the balls physical location into a set of coordinates. The coordinates are then fed into Simulink where the responding servo adjustments are made to center the ball. Since a camera is used, a separate calibration program is necessary. This calibration system will establish the balancing plate as a plane with a coordinate system. This allows for data to be extracted and fed to corresponding programs. </br>
+Without the camera calibration, any data collected would be worthless as no boundary conditions would be set. Additionally, the camera would not know what it is attempting to see. The calibration allows for color detection in which the red ball stands out on the different colored plate.
 <p align='center'>
   <img src="Images/Physical System.png">
   </p>
@@ -120,13 +119,16 @@ The camera calibration program was provided for this project but a few small adj
 	
 ### 3.2 Camera Vision
 As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. Figure 5 shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
+
 <p align='center'>
   <img src="Images/Coordinate System.png">
   </p>
 <p align='center'>
 	Figure 5. Coordinate System for Ball on the Plate Viewed by Camera
 	</p>
-	
+
+The camera cannot see the plate and grid as users will, instead the vision software identifies the ball as red and all else as the plate. With the field of view and plate dimension established, the balls location can be referenced to known dimensions. The image shown below is an example of what the camera actually sees. While the simulation is running the red dot will move within the boundaries generating various coordinates. Within the Simulink code, these can be converted into velocities to determine the balls speed by understand the rate at which images are taken.
+
 <p align='center'>
   <img src="Images/Camera View.png">
   </p>
@@ -135,7 +137,7 @@ As stated before, the camera is going to relate physical motion into coordinates
 	</p>
 	
 ### 3.3 Programming
-The camera cannot see the plate and grid as users will, instead the vision software identifies the ball as red and all else as the plate. With the field of view and plate dimension established, the balls location can be referenced to known dimensions. The image shown below is an example of what the camera actually sees. While the simulation is running the red dot will move within the boundaries generating various coordinates. Within the Simulink code, these can be converted into velocities to determine the balls speed by understand the rate at which images are taken. 
+The camera calibration program was provided for this project but a few small adjustments had to be made in order for the calibration to link with Matlab and Simulink. The figure below is the code used to calibrate the camera within Coppelia. Further adjustments would be needed if the physical system was tested as well. These variations allow for adjustability if, for instance, the physical plate size varied from that of the Coppelia simulation. 
 
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
