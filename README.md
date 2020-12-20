@@ -144,7 +144,7 @@ Within the main calibration program, three functions are being used. The first e
 
 <p align='center'>
   <img src="Images/Connection Code.png">
-  Figure 8: Conection Code
+  Figure 8: Connection Code
   </p>
   
 ## 4. Controller Design and Simulations
