@@ -135,6 +135,9 @@ The camera cannot see the plate and grid as users will, instead the vision softw
   
 ## 4. Controller Design and Simulations
 ### 4.1 Background
+
+Within the main calibration program, three functions are being used. The first establishes the camera being used and allows for the coordinates to be printed internally of Coppelia. The second is just a cleanup code. While the third allows for the conversion of collected data. The final image, figure #, is the connection code which enables the coordinates to be transferred over to Matlab and Simulink.
+	
 ### 4.2 Simulink Diagram
 
 <p align='center'>
