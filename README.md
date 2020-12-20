@@ -19,8 +19,13 @@ The 2 DOF Ball Balancer or Project 2 is a system that will recognize the ball's 
   <img src="Images/ball.jpg">
   Figure 1. One Dimensional View of the Free Body Diagram
   </p>
-Figure 1 shows the one dimensional view of the FBD of the ball and plate design. It includes a rotary servo motor that adjusts the plate to keep the ball on. The ball is allowed to move freely and the purpose of this program is to adjust and maintain stability. 
+Figure 1 shows the one dimensional view of the FBD of the ball and plate design. It includes a rotary servo motor that adjusts the plate to keep the ball on. The ball is allowed to move freely and the purpose of this program is to adjust and maintain stability.
 
+<p align='center'>
+  <img src="Coppelia Balance.png">
+  Figure 1. One Dimensional View of the Free Body Diagram
+  </p>
+  
 ### 2.2 Nonlinear Equation of Motion
 Force due to gravity: 
 
@@ -100,7 +105,6 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 ### 3.2 Camera Vision
 <p align='center'>
   <img src="Images/Coordinate System.png">
-  
   Figure #: Position of the Ball on the Plate Viewed by the Camera in Coordinate Form
 </p>
 
