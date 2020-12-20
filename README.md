@@ -86,13 +86,16 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
 
 ## 3. Sensor Calibration
 ### 3.1 Background
+
+  
+### 3.2 Camera Vision
+  
+### 3.3 Programming
 <p align='center'>
   <img src="Images/Carmera Calibration.png">
   Figure 2: Simulink Diagram Used to Change the Angle of the Tray
   </p>
   
-### 3.2
-### 3.3
 ## 4. Controller Design and Simulations
 ### 4.1 Background
 ### 4.2 Simulink Diagram
@@ -100,7 +103,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   <img src="Images/SimulinkDiagram.JPG">
   Figure 3: Simulink Diagram Used to Change the Angle of the Tray
   </p>
-  
+
 ### 4.3 Codes
 <p align='center'>
   <img src="Images/ballonplate1.JPG">
