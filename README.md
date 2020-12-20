@@ -15,8 +15,8 @@ The 2 DOF Ball Balancer or Project 2 is a system that will recognize the ball's 
 
 ## 2. Modeling
 ### 2.1 Background
-  The ball on plate project relies on a camera located above the plate to convert the balls physical location into a set of coordinates. The coordinates are then fed into Simulink where the responding servo adjustments are made to center the ball. Since a camera is used, a separate calibration program is necessary. This calibration system will establish the balancing plate as a plane with a coordinate system. This allows for data to be extracted and fed to corresponding programs. 
-	Without the camera calibration, any data collected would be worthless as no boundary conditions would be set. Additionally, the camera would not know what it is attempting to see. The calibration allows for color detection in which the red ball stands out on the different colored plate.
+The ball on plate project relies on a camera located above the plate to convert the balls physical location into a set of coordinates. The coordinates are then fed into Simulink where the responding servo adjustments are made to center the ball. Since a camera is used, a separate calibration program is necessary. This calibration system will establish the balancing plate as a plane with a coordinate system. This allows for data to be extracted and fed to corresponding programs. 
+Without the camera calibration, any data collected would be worthless as no boundary conditions would be set. Additionally, the camera would not know what it is attempting to see. The calibration allows for color detection in which the red ball stands out on the different colored plate.
   
 <p align='center'>
   <img src="Images/ball.jpg">
@@ -26,7 +26,7 @@ Figure 1 shows the one dimensional view of the FBD of the ball and plate design.
 
 <p align='center'>
   <img src="Images/Copellia Balance.png">
-  Figure 2. Coppelia Balance
+	
   </p>
   
 ### 2.2 Nonlinear Equation of Motion
@@ -100,7 +100,7 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   Figure #:
   </p>
   
- As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. The image shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
+As stated before, the camera is going to relate physical motion into coordinates which will then be used to determine ball velocity. The image shown below is the coordinate system that has been established. By starting with the dimensions of the plate the plane the balls rides on is created. Two coordinate systems can then be established, one from the corner to build the boundary constraints, and the other to locate the point on the plate in which the ball will be centered on. The latter is called (Xb, Yb), and is the systems zero point.
  
 <p align='center'>
   <img src="Images/Coppelia Model.png">
