@@ -108,6 +108,11 @@ Approximation that <img src="Equations/Equation 11.png"> yields linearized equat
   <img src="Images/Carmera Calibration.png">
   Figure #: Coppelia Code
   </p>
+
+<p align='center'>
+  <img src="Images/Connection Code.png">
+  Figure #: Coppelia Code
+  </p>
   
 ## 4. Controller Design and Simulations
 ### 4.1 Background
